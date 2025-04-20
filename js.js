@@ -1,6 +1,6 @@
 "use strict";
 
-"use strict";
+
 
 let result=document.querySelector(".result");
 
