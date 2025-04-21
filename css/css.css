@@ -1,5 +1,5 @@
 
-
+/*
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
@@ -61,7 +61,7 @@ a{
     margin-left: 150px;
 }
 /*------------first section----------*/
-.second-section{
+/*.second-section{
     display: grid;
     grid-template-rows: 1fr 3fr;
     width: 100%;
@@ -84,26 +84,19 @@ color: rgb(18, 114, 114);
     margin-left:-115px;
     margin-top: 5px;
 }
-/*.flex-second{
+.flex-second{
     display: flex;
     gap: 100px;
     align-items: center;
     justify-content: space-between;
     padding: 10px 120px ;
-}*/
-/*------------*/
-.flex-second {
-    padding: 10px 5%;
-    gap: 20px;
-    flex-wrap: wrap;
 }
-/*------------*/
 .flex-second h2{
     color: rgb(24, 167, 100);
     margin-bottom: 9px;
 }
 /*------------second section----------*/
-.third-section{
+/*.third-section{
     background-image:url(../images/i-love-my-job-so-much_329181-2178.png) ;
     background-size: cover;
     position: relative;
@@ -139,24 +132,14 @@ color: rgb(18, 114, 114);
     gap: 30px;
     
 }
-/*.photo-third div{
+.photo-third div{
     padding: 20px;
     background: white;
     width: 200px;
     height: 340px;
     border-radius: 10px;
     font-size: 13px;
-}*/
-/*---------+++++++*/
-.photo-third div {
-    width: 100%;
-    max-width: 250px;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    font-size: 13px;
 }
-/*---------+++++++*/
 .photo-third img{
     height: 140px;
 }
@@ -174,14 +157,14 @@ color: rgb(18, 114, 114);
     margin-top: 70px;
 }
 /*------------third section----------*/
-.forth-secion{
+/*.forth-secion{
     display: flex;
     padding: 50px 30px;
     align-items: center;
     justify-content: space-around;
 }
 /*------------forth section----------*/
-footer{
+/*footer{
     background-color: rgb(62, 128, 84,0.9);
     border-radius: 220px 220px 0 0;
 }
@@ -239,7 +222,7 @@ li{
     color: white;
     font-size: 20px;
 }
-
+*/
 /*@media (max-width: 500px) {
     body{
         width:  35vh;
@@ -406,124 +389,256 @@ li{
     margin-left: -10px;
 }
 }
-*/@media (max-width: 768px) {
+*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
-  /* general setup */
-  body {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    font-size: 14px;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Manrope", serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(211, 66, 66);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.first-section {
+  background-image: url(../images/download.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 600px;
+  padding: 30px;
+}
+
+.always-laugh {
+  background-color: rgba(20, 175, 71, 0.3);
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 24px;
+  width: fit-content;
+  margin: 30px auto 0 auto;
+  line-height: 1.5;
+}
+
+/* Second section */
+.second-section {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 50px 30px;
+  gap: 40px;
+}
+
+.photo-second {
+  text-align: center;
+  color: rgb(18, 114, 114);
+  position: relative;
+}
+
+.photo-second::after {
+  content: '';
+  width: 18%;
+  height: 5px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+
+.flex-second {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+
+.flex-second h2 {
+  color: rgb(24, 167, 100);
+}
+
+/* Third section */
+.third-section {
+  background-image: url(../images/i-love-my-job-so-much_329181-2178.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.third-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Path62.png);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.main-third {
+  position: relative;
+  z-index: 1;
+  padding: 50px 30px;
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+
+.photo-third {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-third div {
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.photo-third img {
+  width: 100%;
+  height: auto;
+  max-height: 140px;
+  object-fit: cover;
+}
+
+.photo-third h2 {
+  color: rgb(24, 167, 100);
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Fourth section */
+.forth-secion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: rgba(62, 128, 84, 0.9);
+  border-radius: 120px 120px 0 0;
+  padding: 30px;
+  color: white;
+}
+
+.first-part,
+.second-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.first-part h2,
+.first-part h1 {
+  color: brown;
+}
+
+.first-part p,
+li {
+  color: white;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
   header {
-    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
-  }
-
-  .logoooo {
-    width: 80px;
-    margin-bottom: 10px;
   }
 
   .links {
-    display: flex;
     flex-direction: column;
     gap: 10px;
-    font-size: 14px;
-    align-items: center;
   }
 
   .first-section {
-    background-size: cover;
-    background-position: center;
-    padding: 30px 15px;
-    text-align: center;
+    padding: 20px;
+    height: auto;
   }
 
   .always-laugh {
-    font-size: 14px;
-    line-height: 1.6;
-    width: 100%;
+    font-size: 16px;
     padding: 10px;
   }
 
-  .second-section,
-  .third-section,
-  .forth-secion {
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
+  .second-section {
+    padding: 30px 15px;
   }
 
-  .sec-image,
-  .forth-secion .photo {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-  }
-
-  .photo-second,
-  .photo-third {
-    display: flex;
+  .flex-second {
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    padding: 0;
+  }
+
+  .photo-third {
+    flex-direction: column;
     align-items: center;
   }
 
-  .photo-second h1,
-  .photo-third h2,
-  .main-third h1 {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .photo-third .image {
-    width: 100px;
-    height: auto;
-  }
-
-  .photo-third div {
-    width: 90%;
-    font-size: 14px;
-    padding: 10px;
-  }
-
-  .services {
-    font-size: 16px;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .first-part,
-  .second-part {
-    padding: 10px;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .first-part h1,
-  .second-part h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-
-  footer {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    border-radius: 50px 50px 0 0;
-    font-size: 14px;
+  .forth-secion {
+    flex-direction: column;
   }
 
   button {
-    width: 80%;
-    padding: 10px;
-    font-size: 14px;
+    width: 100%;
+    max-width: 200px;
     margin: 10px auto;
-    display: block;
   }
 
+  footer {
+    font-size: 14px;
+  }
 }
+
+
