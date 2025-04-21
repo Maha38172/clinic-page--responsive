@@ -223,6 +223,9 @@ li {
   .second-section {
     padding: 30px 15px;
   }
+   .sec-image{
+     width:260px:
+   }
 
   .flex-second {
     flex-direction: column;
