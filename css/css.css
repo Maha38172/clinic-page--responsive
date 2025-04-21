@@ -84,13 +84,20 @@ color: rgb(18, 114, 114);
     margin-left:-115px;
     margin-top: 5px;
 }
-.flex-second{
+/*.flex-second{
     display: flex;
     gap: 100px;
     align-items: center;
     justify-content: space-between;
     padding: 10px 120px ;
+}*/
+/*------------*/
+.flex-second {
+    padding: 10px 5%;
+    gap: 20px;
+    flex-wrap: wrap;
 }
+/*------------*/
 .flex-second h2{
     color: rgb(24, 167, 100);
     margin-bottom: 9px;
@@ -132,14 +139,24 @@ color: rgb(18, 114, 114);
     gap: 30px;
     
 }
-.photo-third div{
+/*.photo-third div{
     padding: 20px;
     background: white;
     width: 200px;
     height: 340px;
     border-radius: 10px;
     font-size: 13px;
+}*/
+/*---------+++++++*/
+.photo-third div {
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    font-size: 13px;
 }
+/*---------+++++++*/
 .photo-third img{
     height: 140px;
 }
