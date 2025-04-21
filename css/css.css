@@ -389,162 +389,124 @@ li{
     margin-left: -10px;
 }
 }
-*/@media (max-width: 500px) {
+*/@media (max-width: 768px) {
+
+  /* general setup */
   body {
-    width: 100%;
-    margin: 0;
     padding: 0;
-    font-size: 14px;
-  }
-
-  .first-section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    padding: 20px 10px;
-  }
-
-  .logoooo {
-    width: 70px;
-  }
-
-  .first-section .links {
+    margin: 0;
     width: 100%;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  button {
-    width: 80%;
-    height: auto;
-    font-size: 12px;
-    border-radius: 5px;
-    margin: 10px auto;
-    display: block;
+    font-size: 14px;
   }
 
   header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
   }
 
-  .always-laugh {
-    color: white;
-    line-height: 1.4;
-    width: 100%;
-    padding: 10px;
-    font-size: 12px;
+  .logoooo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    align-items: center;
+  }
+
+  .first-section {
+    background-size: cover;
+    background-position: center;
+    padding: 30px 15px;
     text-align: center;
   }
 
+  .always-laugh {
+    font-size: 14px;
+    line-height: 1.6;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .second-section,
+  .third-section,
+  .forth-secion {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .sec-image,
+  .forth-secion .photo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .photo-second,
   .photo-third {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 100%;
+    gap: 15px;
     align-items: center;
-    padding: 10px 0;
+  }
+
+  .photo-second h1,
+  .photo-third h2,
+  .main-third h1 {
+    font-size: 18px;
+    text-align: center;
   }
 
   .photo-third .image {
     width: 100px;
     height: auto;
-    margin-top: 5px;
   }
 
   .photo-third div {
-    border-radius: 5px;
-    padding: 10px;
     width: 90%;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .photo-third div h2 {
     font-size: 14px;
-    margin-top: 5px;
+    padding: 10px;
   }
 
-  .main-third h1 {
+  .services {
     font-size: 16px;
     text-align: center;
-    margin: 10px 0;
+    padding: 10px;
   }
 
-  .forth-secion {
-    padding: 20px;
-    margin: 30px 0;
+  .first-part,
+  .second-part {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
   }
 
-  .forth-secion .photo {
-    width: 100px;
+  .first-part h1,
+  .second-part h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   footer {
     width: 100%;
     padding: 20px;
     text-align: center;
-    border-radius: 100px 100px 0 0;
-  }
-
-  .third-section,
-  .third-section::before {
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .sec-image {
-    width: 90%;
-    height: auto;
-  }
-
-  .second-section {
-    width: 90%;
-    padding: 20px;
-    margin: 20px auto;
-    text-align: center;
-  }
-
-  .services {
-    text-align: center;
+    border-radius: 50px 50px 0 0;
     font-size: 14px;
   }
 
-  .photo-second h1 {
-    font-size: 18px;
-    margin-left: 0;
-  }
-
-  .flex-second {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    font-size: 12px;
+  button {
+    width: 80%;
     padding: 10px;
+    font-size: 14px;
+    margin: 10px auto;
+    display: block;
   }
 
-  .first-part,
-  .first-part div,
-  .first-part p,
-  .first-part h1 {
-    font-size: 12px;
-    margin: 0;
-    padding: 5px;
-    text-align: left;
-  }
-
-  .second-part h2,
-  .second-part i {
-    font-size: 12px;
-    margin: 10px 0;
-  }
-
-  .student,
-  .news,
-  .contact {
-    margin: 20px 0;
-  }
 }
