@@ -1,5 +1,5 @@
 "use strict";
-if(navigator.geolocation){
+/*if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(function(position){
     const {latitude}=position.coords;
     const {longitude}=position.coords;
@@ -17,6 +17,3 @@ L.marker([51.5, -0.09]).addTo(map)
         alert("cant acess your")
     })
 }
-
-
-alert("maha mohamed huiguihioj")
