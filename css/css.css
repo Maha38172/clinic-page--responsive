@@ -1,204 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+
+    padding: 0;
+
+    margin: 0;
+
 }
 
-body {
-  font-family: "Manrope", serif;
+body{
+    font-family:"Manrope", serif ;
+    
+}
+.first-section{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 600px;
+    background-image: url(../images/download.jpg);
+    background-size: cover;
+    padding: 10px 30px 90px 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+.links{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+button{
+    background-color: rgb(211, 66, 66);
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.always-laugh{
+    color: white;
+    line-height: 65px;
+    background-color:rgba(20, 175, 71, 0.3);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 30px 60px 1px 20px;
+    font-size: 25px;
+    margin-left: 150px;
+}
+/*------------first section----------*/
+.second-section{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 100%;
+    height: 350px;
+    padding: 30px;
+    gap: 50px;
+    margin-bottom: 170px;
+}
+.photo-second{
+ position: relative;
+text-align: center;
+color: rgb(18, 114, 114);
+}
+.photo-second::after{
+    content: '';
+    width: 18%;
+    background-color: red;    height: 5px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left:-115px;
+    margin-top: 5px;
+}
+.flex-second{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 120px ;
+}
+.flex-second h2{
+    color: rgb(24, 167, 100);
+    margin-bottom: 9px;
+}
+/*------------second section----------*/
+.third-section{
+    background-image:url(../images/i-love-my-job-so-much_329181-2178.png) ;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    
+}
+.third-section::before{
+    content: '';
+    position: absolute;
+    opacity: 0.9;
+    background-image:url(../images/Path62.png);
+    width: 100%;
+    height: 100%;
+   background-position: center;
+   background-size: cover;
+
+}
+.main-third{
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding: 10px;
+   width: 100%;
+   height: 100%;
+    justify-content: space-between;
+}
+.photo-third{
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 200px;
+    gap: 30px;
+    
+}
+.photo-third div{
+    padding: 20px;
+    background: white;
+    width: 200px;
+    height: 340px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+.photo-third img{
+    height: 140px;
+}
+.photo-third h2{
+    color: rgb(24, 167, 100) ;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.photo-third p{
+    text-align: center;
+}
+.dont{
+    text-align: center;
+    color: white;
+    margin-top: 70px;
+}
+/*------------third section----------*/
+.forth-secion{
+    display: flex;
+    padding: 50px 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+/*------------forth section----------*/
+footer{
+    background-color: rgb(62, 128, 84,0.9);
+    border-radius: 220px 220px 0 0;
+}
+.first-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+    font-size: 14px;
+}
+li{
+    list-style: none;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+.first-part h2{
+    color: brown;
+}
+.student{
+    margin-bottom: 10px;
+}
+.news{
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.contact{
+    margin-top: -60px;
+    margin-bottom: 10px;
+}
+.first-part h1{
+    color:white;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.first-part p{
+    color: white;
+    text-align: center;
+    line-height: 27px;
+    word-spacing: 5px;
+}
+.second-part div{
+    display:flex;
+    align-items: flex-start;
+    padding: 20px 30px 20px 79px;
+    gap: 17px;
+}
+.second-part h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.second-part i{
+    color: white;
+    font-size: 20px;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-button {
-  background-color: rgb(211, 66, 66);
-  border: none;
-  border-radius: 10px;
-  color: white;
-  font-weight: bold;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  flex-wrap: wrap;
-}
-
-.links {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.first-section {
-  background-image: url(../images/download.jpg);
-  background-size: cover;
-  background-position: center;
-  display: grid;
-  grid-template-rows: auto 1fr;
-  height: 600px;
-  padding: 30px;
-}
-
-.always-laugh {
-  background-color: rgba(20, 175, 71, 0.3);
-  color: white;
-  border-radius: 20px;
-  padding: 20px;
-  font-size: 24px;
-  width: fit-content;
-  margin: 30px auto 0 auto;
-  line-height: 1.5;
-}
-
-/* Second section */
-.second-section {
-  display: grid;
-  grid-template-rows: auto 1fr;
-  padding: 50px 30px;
-  gap: 40px;
-}
-
-.photo-second {
-  text-align: center;
-  color: rgb(18, 114, 114);
-  position: relative;
-}
-
-.photo-second::after {
-  content: '';
-  width: 18%;
-  height: 5px;
-  background-color: red;
-  border-radius: 10px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -10px;
-}
-
-.flex-second {
-  display: flex;
-  gap: 50px;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  padding: 0 30px;
-}
-
-.flex-second h2 {
-  color: rgb(24, 167, 100);
-}
-
-/* Third section */
-.third-section {
-  background-image: url(../images/i-love-my-job-so-much_329181-2178.png);
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-.third-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url(../images/Path62.png);
-  background-size: cover;
-  background-position: center;
-  opacity: 0.9;
-  z-index: 0;
-}
-
-.main-third {
-  position: relative;
-  z-index: 1;
-  padding: 50px 30px;
-  display: grid;
-  grid-template-rows: auto 1fr;
-}
-
-.photo-third {
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.photo-third div {
-  background-color: white;
-  padding: 20px;
-  width: 100%;
-  max-width: 250px;
-  border-radius: 10px;
-  text-align: center;
-}
-
-.photo-third img {
-  width: 100%;
-  height: auto;
-  max-height: 140px;
-  object-fit: cover;
-}
-
-.photo-third h2 {
-  color: rgb(24, 167, 100);
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-/* Fourth section */
-.forth-secion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 20px;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-/* Footer */
-footer {
-  background-color: rgba(62, 128, 84, 0.9);
-  border-radius: 120px 120px 0 0;
-  padding: 30px;
-  color: white;
-}
-
-.first-part,
-.second-part {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  text-align: center;
-}
-
-.first-part h2,
-.first-part h1 {
-  color: brown;
-}
-
-.first-part p,
-li {
-  color: white;
-  font-weight: bold;
-  line-height: 1.6;
-}
-
-/* Media Queries */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
