@@ -12,7 +12,7 @@
 
 body{
     font-family:"Manrope", serif ;
-  overflow-x: hidden;
+  
 }
 
 .first-section{
@@ -222,6 +222,9 @@ li{
     font-size: 20px;
 }
 @media (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+        }
   header {
     flex-direction: column;
     align-items: center;
