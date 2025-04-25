@@ -224,7 +224,8 @@ li{
 @media (max-width: 768px) {
     body{
         overflow-x:hidden;
-        margin:0
+        margin:0;
+        width:100%;
         }
   header {
     flex-direction: column;
