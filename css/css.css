@@ -223,7 +223,7 @@ li{
 }
 @media (max-width: 768px) {
     body{
-        overflow-x:hidden;
+        
         margin:0
         }
   header {
