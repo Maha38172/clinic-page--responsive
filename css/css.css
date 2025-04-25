@@ -223,7 +223,7 @@ li{
 }
 @media (max-width: 768px) {
     body{
-        overflow-x: hidden;
+        overflow: hidden;
         }
   header {
     flex-direction: column;
@@ -251,7 +251,7 @@ li{
 
   .second-section {
     padding: 30px 15px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     gap: 30px;
   }
 
@@ -327,6 +327,7 @@ li{
     }
     .contact{
         margin-top:15px;
+        text-align:center;
     }
 }
 
