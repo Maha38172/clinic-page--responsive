@@ -237,17 +237,17 @@ li{
   }
 
   .first-section {
-    padding: 20px;
+    padding: 10px 0;
     height: auto;
     grid-template-rows: auto auto;
   }
 
   .always-laugh {
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 10px 15px;
   margin: 0 auto;
   text-align: center;
-width: 100%; 
+width: 90%; 
 max-width: 100%;
 box-sizing: border-box; 
   }
