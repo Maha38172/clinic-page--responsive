@@ -248,7 +248,7 @@ li{
 
   .second-section {
     padding: 30px 15px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     gap: 30px;
   }
 
@@ -309,5 +309,18 @@ li{
   .main-third {
     grid-template-rows: auto auto;
   }
+    .photo-second::after{
+        width:100%;
+        margin:auto;
+      }
+    li{
+        line-height:20px;
+        text-align:center;
+        margin-bottom:15px;
+    }
+    .second-part div{
+    display:flex;
+    align-items: center;
+    }
 }
 
