@@ -221,7 +221,6 @@ li{
     color: white;
     font-size: 20px;
 }
-
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -243,14 +242,19 @@ li{
   .always-laugh {
     font-size: 16px;
     padding: 10px;
+    margin-left: 0;
+    text-align: center;
   }
 
   .second-section {
     padding: 30px 15px;
+    margin-bottom: 50px;
+    gap: 30px;
   }
-   .sec-image{
-     width:160px;
-   }
+
+  .sec-image {
+    width: 160px;
+  }
 
   .flex-second {
     flex-direction: column;
@@ -262,17 +266,20 @@ li{
   .photo-third {
     flex-direction: column;
     align-items: center;
-      padding: 10px 20px;
+    padding: 10px 20px;
     gap: 20px;
   }
-    .photo-third div {
+
+  .photo-third div {
     width: 90%;
     height: auto;
-    }
-    
+  }
 
   .forth-secion {
     flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    text-align: center;
   }
 
   button {
@@ -283,19 +290,18 @@ li{
 
   footer {
     font-size: 14px;
+    border-radius: 120px 120px 0 0;
+  }
+
+  .first-part {
     flex-direction: column;
     align-items: center;
-      border-radius:120px 120x 0 0;
-  }
-    .first-section {
-    flex-direction: column;
     padding: 30px;
     gap: 20px;
-    }
-    .main-third {
+  }
+
+  .main-third {
     grid-template-rows: auto auto;
-    }
+  }
 }
-
-
 
