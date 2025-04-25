@@ -223,7 +223,7 @@ li{
 }
 @media (max-width: 768px) {
     body{
-        
+        overflow-x:hidden;
         margin:0
         }
   header {
@@ -330,7 +330,7 @@ max-width: 80%;
     align-items: center;
     }
     .contact{
-        margin: 15px auto;
+        margin: 10px auto;
         text-align:center;
     }
 }
