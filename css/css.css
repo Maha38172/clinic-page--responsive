@@ -313,7 +313,7 @@ li{
     grid-template-rows: auto auto;
   }
     .photo-second::after{
-        width:100%;
+        width:50%;
         margin:auto;
       }
     li{
@@ -324,6 +324,9 @@ li{
     .second-part div{
     display:flex;
     align-items: center;
+    }
+    .contact{
+        margin-top:15px;
     }
 }
 
