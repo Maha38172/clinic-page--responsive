@@ -12,7 +12,7 @@
 
 body{
     font-family:"Manrope", serif ;
-  
+  overflow-x:hidden;
 }
 
 .first-section{
@@ -223,7 +223,7 @@ li{
 }
 @media (max-width: 768px) {
     body{
-        overflow: hidden;
+        overflow-x:hidden;
         }
   header {
     flex-direction: column;
@@ -244,9 +244,12 @@ li{
 
   .always-laugh {
     font-size: 16px;
-    padding: 10px;
+    padding: 10px 20px;
   margin: 0 auto;
   text-align: center;
+width: 100%; 
+max-width: 100%;
+box-sizing: border-box; 
   }
 
   .second-section {
@@ -326,7 +329,7 @@ li{
     align-items: center;
     }
     .contact{
-        margin-top:15px;
+        margin: 15px auto;
         text-align:center;
     }
 }
